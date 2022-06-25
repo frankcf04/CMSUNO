@@ -19,4 +19,9 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::view('/','welcome');
+Route::get('/inicio','InicioController@index');
+
+
+//frontend
+Route::get('/','FrontEndController@inicio');
