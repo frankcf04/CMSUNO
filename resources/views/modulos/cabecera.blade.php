@@ -113,7 +113,7 @@
         </div>
       </li> --}}
       <li class="nav-item">
-        <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
+        <a class="nav-link" href="{{ url('/datos') }}" role="button">
        
           {{auth()->user()->name}}
         </a>

@@ -21,7 +21,9 @@ Auth::routes();
 
 Route::view('/','welcome');
 Route::get('/inicio','InicioController@index');
-
+Route::view('/datos','modulos.datos');
+Route::put('/datos', 'UsuarioController@update');
+Route::get('/usuarios','UsuarioController@index');
 
 //frontend
 Route::get('/','FrontEndController@inicio');

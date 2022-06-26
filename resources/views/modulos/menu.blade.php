@@ -14,7 +14,7 @@
           <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Alexander Pierce</a>
+          <a href="{{ url('/datos') }}" class="d-block">Alexander Pierce</a>
         </div>
       </div> --}}
 
@@ -24,7 +24,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item">
-            <a href="#" class="nav-link active">
+            <a href="{{ url('/inicio') }}" class="nav-link active">
               <i class="nav-icon fas fa-home"></i>
               <p>
                 INICIO
@@ -35,7 +35,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="{{ url('/usuarios') }}" class="nav-link">
               <i class="nav-icon fas fa-users"></i>
               <p>
                 Usuarios
@@ -45,7 +45,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="{{ url('/slide') }}" class="nav-link">
               <i class="nav-icon fas fa-image"></i>
               <p>
                 Slide
@@ -55,7 +55,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="{{ url('/categorias') }}" class="nav-link">
               <i class="nav-icon fas fa-list"></i>
               <p>
                 Categorías
@@ -65,7 +65,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="{{ url('/excursiones') }}" class="nav-link">
               <i class="nav-icon fas fa-bus"></i>
               <p>
                 Excursiones
@@ -75,7 +75,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="{{ url('/mensajes') }}" class="nav-link">
               <i class="nav-icon fas fa-envelope"></i>
               <p>
                 Mensajes
